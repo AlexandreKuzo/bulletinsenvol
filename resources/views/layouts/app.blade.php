@@ -19,7 +19,6 @@
 
 
 
-                        </div>
 
                         <div class="navbar-start">
                             <img class="navbar-item image is-small" src="{{ asset('images/logo-lbp.png') }}">
@@ -33,7 +32,10 @@
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a class="navbar-link" href="#">{{ Auth::user()->name }}</a>
 
+
                                     <div class="navbar-dropdown">
+                                        <a class="navbar-item" href="/showbulletins">Mes anciens bulletins</a>
+                                        <a class="navbar-item" href="{{route('home') }}">Accueil</a>
                                         <a class="navbar-item" href="{{ route('logout') }}"
                                            onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                                             Déconnexion
