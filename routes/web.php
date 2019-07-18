@@ -56,6 +56,9 @@ Route::get('sciencestechnique', function () {
 Route::get('sciencegestion', function () {
 		return view('sciencegestion');
 	});
+Route::get('showbulletins', function () {
+		return view('showbulletins');
+	});
 
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('Auth\LoginController@__construct');
