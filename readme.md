@@ -58,7 +58,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# bulletinsenvol
+
+## bulletinsenvol
 
 Site web d'enregistrement de bulletins scolaires (résultats+documents) pour les élèves du programme de L'Envol.
 Développé par Article 1 pour L'Envol.
