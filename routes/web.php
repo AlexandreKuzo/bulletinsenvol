@@ -90,5 +90,8 @@ Route::post('scientifique', 'ScientifiqueController@store')->name('scientifique'
 Route::get('dossier', 'DossierController@create')->name('dossier');
 Route::post('dossier', 'DossierController@store')->name('dossier');
 
+Route::get('lyceen', 'LyceenController@create')->name('lyceen');
+Route::post('lyceen', 'LyceenController@store')->name('lyceen');
+
 Route::get('password/reset{token}', 'Auth\ResetPasswordController@showResetForm')->name('password/reset');
 Route::get('password/reset{token}', 'Auth\ResetPasswordController@reset')->name('password/reset');
