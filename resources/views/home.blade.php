@@ -25,42 +25,49 @@
                         </p>
                     </header>
 
-                    <div class="card-content">
-                    Tu peux saisir tes moyennes. Choisis ton niveau ci-dessous.
+                    <div class="card-content has-text-centered">
+                    <p class="subtitle is-4">Tu passes la bac "à l'ancienne" avec les séries. Choisis ton niveau ci-dessous.</p>
+
+
+
+                    <div class="buttons">
+
+                        <a class="button is-info" href="{{ route('bulletin') }}">3ème</a>
+
+                        <a class="button is-info" href="{{ route('seconde') }}">2nde</a>
+
+
+
+                        <a class="button is-info" href="{{ route('litteraire') }}">1ère ou Tle L</a>
+
+
+                        <a class="button is-info" href="{{ route('scientifique') }}">1ère ou Tle S</a>
+
+
+                        <a class="button is-info" href="{{ route('economique') }}">1ère ou Tle ES</a>
+
+
+                        <a class="button is-info" href="{{ route('sciencegestion') }}">1ère ou Tle STMG</a>
+
+
+                        <a class="button is-info" href="{{ route('sciencestechnique') }}">1ère ou Tle STI2D</a>
+
+
                     </div>
 
 
-
-     <nav class="level">
-                    <p class="level-item ">
-                        <a class="link is-info" href="{{ route('bulletin') }}">3ème</a>
-                            </p>
-                            <p class="level-item ">
-                        <a class="link is-info" href="{{ route('seconde') }}">2nde</a>
-                            </p>
-                        </nav>
-
-        <nav class="level">
-
-                <p class="level-item has-text-centered">
-                        <a class="link is-info" href="{{ route('litteraire') }}">1ère ou Tle L</a>
-                            </p>
-                    <p class="level-item has-text-centered">
-                        <a class="link is-info" href="{{ route('scientifique') }}">1ère ou Tle S</a>
-                            </p>
-                    <p class="level-item has-text-centered">
-                        <a class="link is-info" href="{{ route('economique') }}">1ère ou Tle ES</a>
-                            </p>
-                    <p class="level-item has-text-centered">
-                        <a class="link is-info" href="{{ route('sciencegestion') }}">1ère ou Tle STMG</a>
-                            </p>
-                    <p class="level-item has-text-centered">
-                        <a class="link is-info" href="{{ route('sciencestechnique') }}">1ère ou Tle STI2D</a>
-                            </p>
+                    <div class="card-content has-text-centered">
+                    <p class="subtitle is-4">Tu passes "le nouveau bac", ou tu es étudiant•e ? C'est ci-dessous.</p>
 
 
-                </nav>
 
+                    <div class="buttons">
+
+                        <a class="button is-info" href="{{ route('lyceen') }}">Lycéens</a>
+                        <a class="button is-info" href="{{ route('dossier') }}">Etudiants</a>
+
+                    </div>
+                </div>
 
             </div>
         </div>
